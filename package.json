@@ -1,0 +1,64 @@
+{
+  "name": "nuzzo-ancestry",
+  "version": "1.0.0",
+  "description": "Nuzzo family ancestry based WP theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkaminski/nuzzo-ancestry.git"
+  },
+  "keywords": [
+    "Ancestry",
+    "Geneology",
+    "Custom",
+    "WordPress"
+  ],
+  "author": "Ben Kaminski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bkaminski/nuzzo-ancestry/issues"
+  },
+  "homepage": "https://github.com/bkaminski/nuzzo-ancestry#readme",
+  "devDependencies": {
+    "bourbon": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "kind-of": "^6.0.3",
+    "minimist": "^1.2.6"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.7",
+    "browserslist": "^4.19.1",
+    "copy-props": "^3.0.1",
+    "glob-parent": "^6.0.2",
+    "hosted-git-info": "^4.1.0",
+    "ini": "^2.0.0",
+    "json-schema": "^0.4.0",
+    "lodash": "^4.17.21",
+    "node-notifier": "^10.0.1",
+    "node-sass": "^4.14.1",
+    "path-parse": "^1.0.7",
+    "postcss": "^8.4.5",
+    "tar": "^6.1.11",
+    "trim-newlines": "^4.0.2",
+    "y18n": "^5.0.8",
+    "yargs-parser": "^20.0.0"
+  }
+}
