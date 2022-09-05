@@ -1,0 +1,20 @@
+# ignore node dependency directories
+node_modules/
+
+# ignore scripts.js unminified file
+assets/js/scripts.js
+
+# ignore img assets
+assets/img/
+
+# ignore gulpfile
+gulpfile.js
+
+# ignore screenshot
+screenshot.png
+
+# ignore Google Analytics / Tag Manager
+parts/page-header-tracking.php
+
+# ignore favicons / mobile app icons
+parts/page-favicons.php
