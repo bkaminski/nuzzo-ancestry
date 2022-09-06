@@ -4,6 +4,10 @@ node_modules/
 # ignore scripts.js unminified file
 assets/js/scripts.js
 
+#ignore Maps API
+functions/maps-api.php
+assets/js/partials/_maps-api.js
+
 # ignore img assets
 assets/img/
 

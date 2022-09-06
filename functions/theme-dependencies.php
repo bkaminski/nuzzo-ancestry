@@ -4,7 +4,6 @@ function enqueue_bkc_scripts() {
     wp_enqueue_script('Bootstrap-5.2.0', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js', array('jquery'), '', true);
     wp_enqueue_script('font-awesome-5', 'https://kit.fontawesome.com/42219cbebc.js', false, null, null, false);
     wp_enqueue_script('bkc-scripts', get_template_directory_uri() . '/assets/js/bkcScripts.min.js', array('jquery'), null, true, null);
-    wp_enqueue_script('Google Maps API', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCtN1uoWQM6pP0PIqEokyf7FRpGPY6kL-U', false, null, null, false);
 }
 add_action('wp_enqueue_scripts', 'enqueue_bkc_scripts');
 
@@ -42,13 +41,3 @@ function nuzzo_fam_tag() {
 add_action('init', 'nuzzo_fam_tag');
 
 
-// GOOGLE MAPS
-function my_acf_google_map_api( $api ){
-
-    $api['key'] = 'AIzaSyCtN1uoWQM6pP0PIqEokyf7FRpGPY6kL-U';
-
-    return $api;
-
-}
-
-add_filter('acf/fields/google_map/api', 'my_acf_google_map_api'); 

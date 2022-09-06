@@ -1,6 +1,10 @@
 <?php 
+
 // INIT DEPENDENCIES
 require_once(get_template_directory(). '/functions/theme-dependencies.php');
+
+// INIT GOOGLE MAPS API 
+require_once(get_template_directory(). '/functions/maps-api.php');
 
 // INIT THEME HELPERS
 require_once(get_template_directory(). '/functions/theme-helpers.php');
