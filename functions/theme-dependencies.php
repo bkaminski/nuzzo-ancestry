@@ -34,6 +34,7 @@ function register_nuzzo_fam_cpt() {
     ]);
 }
 
+
 // Add Tag Support
 function nuzzo_fam_tag() {
     register_taxonomy_for_object_type('post_tag', 'nuzzo_fam_tag');
